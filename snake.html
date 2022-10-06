@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <h1>Snake</h1>
+    <canvas id="gameTable" width="600" height="600"></canvas>
+    <button type="button" id="start" onclick="startGame()">Start</button>
+    <button onClick = "window.location.reload();" id="restart" style="height: 50px; width: 60px; visibility: hidden;">Restart</button>
+    <div id="status">
+        <p id="time" style="color: white">0:00</p>
+        <p id="points" style="color: white">0 &#127822</p>
+    </div>
+    <script src="snake.js"></script>
+</body>
+</html>
