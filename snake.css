@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#status {
+    position:absolute;
+    font-size: 1.275em;
+    left: 63.5%;
+    top: 7%;
+}
+
+#start {
+    position:absolute;
+    width: 50px;
+    height: 40px;
+    left:49%;
+    top: 37%;
+}
+
+#gameTable {
+    background-color: rgb(46, 1, 31);
+}
+
+#restart {
+    position: absolute;
+    top: 50%;
+}
